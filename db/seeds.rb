@@ -17,3 +17,17 @@ Brand.create([
       name: 'Puma'
    }
 ])
+
+Sneaker.create([
+  {
+    brand_id: random_brand_id,
+    model: 'M990DRK2 Dark Green/Dark Grey',
+    sex: ‘//’
+    price: 111,
+  }, {
+    brand_id: random_brand_id,
+    model: '//',
+    sex: ‘//’
+    price: 111,
+  }
+])
